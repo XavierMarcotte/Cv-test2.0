@@ -1,0 +1,1 @@
+{"mappings":"ACCA;;;;;AAIA;;;;;;;;;;;;;;;AAiBA;;;;;AAGI;;;;;;AAKA","sources":["src/index.scss","src/global.scss","src/var.scss"],"sourcesContent":["@use './global.scss';\r\n@use './var.scss';",null,null],"names":[],"version":3,"file":"index.ce1d6491.css.map","sourceRoot":"/__parcel_source_root/"}
