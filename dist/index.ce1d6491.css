@@ -1,21 +1,68 @@
 body {
   box-sizing: border-box;
   margin: 0;
+  font-family: Lexend Deca, sans-serif;
+}
+
+h2 {
+  color: #d14e4e;
+  text-transform: uppercase;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+a {
+  color: #fff;
+}
+
+div {
+  margin-bottom: 3rem;
+}
+
+button {
+  text-transform: uppercase;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+@media print {
+  button {
+    display: none;
+  }
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 header {
   z-index: 1;
   color: #fff;
-  height: 18vh;
+  height: 20vh;
   width: 100%;
-  background-color: #882424;
-  justify-content: space-evenly;
+  background-color: #d14e4e;
+  justify-content: center;
+  gap: 50px;
   display: flex;
   position: absolute;
   top: 10vh;
   left: 0;
   right: 0;
   overflow: hidden;
+}
+
+header .tavu {
+  text-align: center;
+  font-size: 1.4em;
+}
+
+header .tavu p {
+  color: #3b3b3b;
+  font-weight: bold;
 }
 
 main {
@@ -25,13 +72,31 @@ main {
 
 main .body-left {
   color: #fff;
-  background-color: #222;
-  padding: 20em 2em 0;
+  background-color: #3b3b3b;
+  padding: 20em 4em 0;
+}
+
+main .body-left .compétences-list {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+main .body-left .compétences-list-each p {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+main .body-left .compétences-list-each ul {
+  padding-left: 0;
+}
+
+main .body-left .compétences-list-each ul li {
+  text-transform: uppercase;
 }
 
 main .body-right {
   background-color: #fff;
-  padding: 20em 2em 0;
+  padding: 20em 4em 0;
 }
 
 /*# sourceMappingURL=index.ce1d6491.css.map */

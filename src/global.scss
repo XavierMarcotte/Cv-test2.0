@@ -2,34 +2,86 @@
 body {
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+h2 {
+    color: var.$color2;
+    text-transform: uppercase;
+}
+h3 {
+    text-transform: uppercase;
+}
+a {
+    color: white;
+}
+div{
+    margin-bottom: 3rem;
+}
+button{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background: white;
+    text-transform: uppercase;
+    @media print {
+        display: none;
+    }
+    &:hover{
+      cursor: pointer;
+    }
 }
 header{
     position: absolute;
     z-index: 1;
-    top: 10vh; /* utilisez 'top' à la place de 'margin-top' pour placer l'élément */
-    left: 0; /* assurez-vous que l'élément commence à partir du bord gauche */
-    right: 0; /* assurez-vous que l'élément se termine au bord droit */
+    top: 10vh;
+    left: 0; 
+    right: 0; 
     color: white;
-    height: 18vh;
+    height: 20vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 50px;
     background-color: var.$color2;
     width: 100%;
     overflow: hidden;
-    img{
-        
+    .tavu{
+        text-align: center;
+        font-size: 1.4em;
+        p{
+            color: var.$color1;
+            font-weight: bold;
+        }
     }
 }
 main {
     display: grid;
     grid-template-columns: 42% 58%;
     .body-left {
-        padding: 20em 2em 0 2em;
+        padding: 20em 4em 0 4em;
         background-color: var.$color1;
         color: white;
+        .compétences {
+            &-list {
+                display: flex;
+                justify-content: space-evenly;
+
+                &-each{
+                    p{
+                        text-transform: uppercase;
+                        text-decoration: underline;
+                    }
+                    ul{
+                        padding-left: 0;
+                        li{
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+        }
     }
     .body-right {
-        padding: 20em 2em 0 2em;
+        padding: 20em 4em 0 4em;
         background-color: white;
     }
 }
