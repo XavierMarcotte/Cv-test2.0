@@ -5,7 +5,7 @@ body {
 }
 
 h2 {
-  color: #d14e4e;
+  color: #4e62d1;
   text-transform: uppercase;
 }
 
@@ -44,7 +44,7 @@ header {
   color: #fff;
   height: 20vh;
   width: 100%;
-  background-color: #d14e4e;
+  background-color: #4e62d1;
   justify-content: center;
   gap: 50px;
   display: flex;
