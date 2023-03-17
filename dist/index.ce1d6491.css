@@ -4,24 +4,24 @@ body {
   font-family: Lexend Deca, sans-serif;
 }
 
-h2 {
+body h2 {
   color: #4e62d1;
   text-transform: uppercase;
 }
 
-h3 {
+body h3 {
   text-transform: uppercase;
 }
 
-a {
+body a {
   color: #fff;
 }
 
-div {
-  margin-bottom: 3rem;
+body div {
+  margin-bottom: 1rem;
 }
 
-button {
+body button {
   text-transform: uppercase;
   background: #fff;
   border: 1px solid #000;
@@ -30,73 +30,181 @@ button {
 }
 
 @media print {
-  button {
+  body button {
     display: none;
   }
 }
 
-button:hover {
+@media (max-width: 800px) {
+  body button {
+    margin-top: 3rem;
+  }
+}
+
+body button:hover {
   cursor: pointer;
 }
 
-header {
+body header {
   z-index: 1;
   color: #fff;
-  height: 20vh;
+  height: 25vh;
   width: 100%;
   background-color: #4e62d1;
-  justify-content: center;
-  gap: 50px;
+  justify-content: space-around;
   display: flex;
   position: absolute;
-  top: 10vh;
+  top: 5vh;
   left: 0;
   right: 0;
   overflow: hidden;
 }
 
-header .tavu {
+body header .tavu {
   text-align: center;
   font-size: 1.4em;
 }
 
-header .tavu p {
+body header .tavu p {
   color: #3b3b3b;
   font-weight: bold;
 }
 
-main {
+body main {
   grid-template-columns: 42% 58%;
   display: grid;
 }
 
-main .body-left {
+body main .body-left {
   color: #fff;
   background-color: #3b3b3b;
   padding: 20em 4em 0;
 }
 
-main .body-left .compétences-list {
+body main .body-left .compétences-list {
   justify-content: space-evenly;
   display: flex;
 }
 
-main .body-left .compétences-list-each p {
+body main .body-left .compétences-list-each p {
   text-transform: uppercase;
   text-decoration: underline;
 }
 
-main .body-left .compétences-list-each ul {
+body main .body-left .compétences-list-each ul {
   padding-left: 0;
 }
 
-main .body-left .compétences-list-each ul li {
+body main .body-left .compétences-list-each ul li {
   text-transform: uppercase;
 }
 
-main .body-right {
+body main .body-right {
   background-color: #fff;
   padding: 20em 4em 0;
+}
+
+@media (max-width: 1205px) {
+  body {
+    font-size: .8em;
+  }
+
+  body div {
+    margin-bottom: 0;
+  }
+
+  body header {
+    height: 22vh;
+  }
+}
+
+@media (max-width: 1025px) {
+  body {
+    font-size: .7em;
+  }
+
+  body header {
+    height: 17vh;
+    top: 0;
+  }
+}
+
+@media (max-width: 873px) {
+  body {
+    font-size: .6em;
+  }
+
+  body header {
+    height: 13vh;
+  }
+
+  body main .body-left, body main .body-right {
+    padding: 18em 1.5em;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    font-size: .6em;
+  }
+
+  body header {
+    height: 10vh;
+  }
+
+  body main .body-left {
+    padding: 12em 1.5em;
+  }
+
+  body main .body-left .compétences-list {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "primo deuxio"
+                         "tertio quartio";
+    margin-left: 1rem;
+    display: grid;
+  }
+
+  body main .body-left .compétences-list .primo {
+    grid-area: primo;
+  }
+
+  body main .body-left .compétences-list .deuxio {
+    grid-area: deuxio;
+  }
+
+  body main .body-left .compétences-list .tertio {
+    grid-area: tertio;
+  }
+
+  body main .body-right {
+    padding: 12em 1.5em;
+  }
+}
+
+@media (max-width: 540px) {
+  body header .tavu p {
+    font-size: .8em;
+  }
+
+  body main .body-left {
+    padding: 12em 1.5em;
+  }
+
+  body main .body-left .compétences-list {
+    margin-left: 2rem;
+    display: block;
+  }
+}
+
+@media (max-width: 450px) {
+  body {
+    font-size: .6em;
+  }
+
+  body main .body-left, body main .body-right {
+    padding: 12em 1.5em;
+  }
 }
 
 /*# sourceMappingURL=index.ce1d6491.css.map */

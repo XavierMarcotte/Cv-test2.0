@@ -3,7 +3,6 @@ body {
     box-sizing: border-box;
     margin: 0;
     font-family: 'Lexend Deca', sans-serif;
-}
 h2 {
     color: var.$color2;
     text-transform: uppercase;
@@ -15,7 +14,7 @@ a {
     color: white;
 }
 div{
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 button{
     border: 1px solid black;
@@ -26,6 +25,10 @@ button{
     @media print {
         display: none;
     }
+    @media (max-width: 800px) {
+        margin-top: 3rem;
+        
+    }
     &:hover{
       cursor: pointer;
     }
@@ -33,14 +36,13 @@ button{
 header{
     position: absolute;
     z-index: 1;
-    top: 10vh;
+    top: 5vh;
     left: 0; 
     right: 0; 
     color: white;
-    height: 20vh;
+    height: 25vh;
     display: flex;
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-around;
     background-color: var.$color2;
     width: 100%;
     overflow: hidden;
@@ -64,7 +66,6 @@ main {
             &-list {
                 display: flex;
                 justify-content: space-evenly;
-
                 &-each{
                     p{
                         text-transform: uppercase;
@@ -84,4 +85,104 @@ main {
         padding: 20em 4em 0 4em;
         background-color: white;
     }
+}
+
+
+@media (max-width: 1205px) {
+    font-size: 0.8em;
+        div{
+        margin-bottom: 0;
+    }
+    header {
+        height: 22vh;
+    }
+}
+@media (max-width: 1025px) {
+    font-size: 0.7em;
+    header {
+        height: 17vh;
+        top: 0vh;
+    }
+}
+@media (max-width: 873px) {
+    font-size: 0.6em;
+    header {
+        height: 13vh;
+    }
+    main{
+        .body-left {
+            padding: 18em 1.5em;
+        }
+        .body-right {
+            padding: 18em 1.5em;
+        }
+    }
+}
+@media (max-width: 800px) {
+    font-size: 0.6em;
+    header {
+        height: 10vh;
+    }
+    
+    main{
+        .body-left {
+            padding: 12em 1.5em;
+            .compétences{
+                &-list {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
+                    grid-template-areas: 
+                    "primo deuxio"
+                    "tertio quartio";
+                    margin-left: 1rem;
+                    .primo{
+                        grid-area: primo;
+                    }
+                    .deuxio{
+                        grid-area: deuxio;
+                    }
+                    .tertio{
+                        grid-area: tertio;
+                    }
+                }
+            }
+        }
+        .body-right {
+            padding: 12em 1.5em;
+        }
+    }
+}
+@media (max-width: 540px) {
+    header{
+        .tavu{
+            p{
+                font-size: 0.8em;
+            }
+        }
+    }
+    main{
+        .body-left {
+            padding: 12em 1.5em;
+            .compétences{
+                &-list {
+                    display: block;
+                    margin-left: 2rem;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 450px) {
+    font-size: 0.6em;
+    main{
+        .body-left {
+            padding: 12em 1.5em;
+        }
+        .body-right {
+            padding: 12em 1.5em;
+        }
+    }
+}
+
 }
