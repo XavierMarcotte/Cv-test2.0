@@ -205,6 +205,10 @@ body main .body-right {
   body main .body-left, body main .body-right {
     padding: 12em 1.5em;
   }
+
+  body main a {
+    font-size: .8em;
+  }
 }
 
 /*# sourceMappingURL=index.ce1d6491.css.map */
