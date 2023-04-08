@@ -2,7 +2,8 @@ const bouton = document.querySelector('.impression');
 const href = document.querySelectorAll('a');
 const white = document.querySelectorAll('.white');
 const competences = document.querySelector('.compétences-list');
-const sections = document.querySelectorAll('section')
+const sections = document.querySelectorAll('section');
+const photo = document.querySelector('img')
 function impress() {
     bouton.addEventListener('click', () => {
       white.forEach(whites => {
@@ -22,7 +23,7 @@ function impress() {
 
       sections.forEach(section => {
         section.style.padding ='20em 4em 0 4em';
-      }) 
+      });
   
       window.print();
     });

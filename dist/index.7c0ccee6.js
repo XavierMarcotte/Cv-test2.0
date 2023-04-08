@@ -3,6 +3,7 @@ const href = document.querySelectorAll("a");
 const white = document.querySelectorAll(".white");
 const competences = document.querySelector(".comp\xe9tences-list");
 const sections = document.querySelectorAll("section");
+const photo = document.querySelector("img");
 function impress() {
     bouton.addEventListener("click", ()=>{
         white.forEach((whites)=>{
