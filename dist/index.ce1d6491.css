@@ -120,18 +120,22 @@ body main .body-right {
 
 @media (max-width: 1025px) {
   body {
-    font-size: .7em;
+    font-size: .8em;
   }
 
   body header {
     height: 17vh;
     top: 0;
   }
+
+  body main .body-left, body main .body-right {
+    padding: 14em 1.5em;
+  }
 }
 
 @media (max-width: 873px) {
   body {
-    font-size: .6em;
+    font-size: .7em;
   }
 
   body header {
@@ -139,17 +143,13 @@ body main .body-right {
   }
 
   body main .body-left, body main .body-right {
-    padding: 18em 1.5em;
+    padding: 14em 1.5em;
   }
 }
 
 @media (max-width: 800px) {
   body {
-    font-size: .6em;
-  }
-
-  body header {
-    height: 10vh;
+    font-size: .7em;
   }
 
   body main .body-left {
@@ -191,8 +191,12 @@ body main .body-right {
     padding: 12em 1.5em;
   }
 
+  body main .body-left .soft-skills {
+    padding-inline-start: 1rem;
+  }
+
   body main .body-left .compétences-list {
-    margin-left: 2rem;
+    margin-left: 1rem;
     display: block;
   }
 }

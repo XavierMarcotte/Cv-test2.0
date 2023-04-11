@@ -98,32 +98,36 @@ main {
     }
 }
 @media (max-width: 1025px) {
-    font-size: 0.7em;
+    font-size: 0.8em;
     header {
         height: 17vh;
         top: 0vh;
     }
+    main{
+        .body-left {
+            padding: 14em 1.5em;
+        }
+        .body-right {
+            padding: 14em 1.5em;
+        }
+    }
 }
 @media (max-width: 873px) {
-    font-size: 0.6em;
+    font-size: 0.7em;
     header {
         height: 13vh;
     }
     main{
         .body-left {
-            padding: 18em 1.5em;
+            padding: 14em 1.5em;
         }
         .body-right {
-            padding: 18em 1.5em;
+            padding: 14em 1.5em;
         }
     }
 }
 @media (max-width: 800px) {
-    font-size: 0.6em;
-    header {
-        height: 10vh;
-    }
-    
+    font-size: 0.7em;
     main{
         .body-left {
             padding: 12em 1.5em;
@@ -164,10 +168,13 @@ main {
     main{
         .body-left {
             padding: 12em 1.5em;
+            .soft-skills{
+                padding-inline-start: 1rem;
+            }
             .compétences{
                 &-list {
                     display: block;
-                    margin-left: 2rem;
+                    margin-left: 1rem;
                 }
             }
         }
