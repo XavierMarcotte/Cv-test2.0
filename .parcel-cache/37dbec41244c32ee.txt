@@ -39,7 +39,7 @@
 108C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\node_modules\term-size\vendor133225013533065969 1
 162C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\node_modules\@parcel\core\test\fixtures\invalid-target-source-not-file\package.json133225013540456084 0
 130C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\node_modules\css-tree\lib\syntax\node\WhiteSpace.js133225013539468734 0
-83C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\dist133408803594965144 1
+83C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\dist133419152377192745 1
 143C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_load.1133225013536230457 0
 161C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\aliased\index.js133225013536826307 0
 123C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\node_modules\source-map-js\lib\base64-vlq.js133225014786468733 0
@@ -58,7 +58,7 @@
 123C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\node_modules\caniuse-lite\data\regions\GQ.js133225013541856128 0
 120C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\node_modules\terser\lib\compress\index.js133225013536936012 0
 129C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\node_modules\@parcel\package-manager\test\fixtures133225013537045725 1
-89C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\index.html133408803591366365 0
+89C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\index.html133419152376824710 0
 136C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\node_modules\dom-serializer\node_modules\entities\LICENSE133225013531562960 0
 99C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\node_modules\is-glob133225013532532023 1
 117C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\node_modules\@parcel\namer-default\src133225013532392391 1
@@ -2869,7 +2869,7 @@
 123C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\node_modules\caniuse-lite\data\regions\CD.js133225013538795171 0
 123C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\node_modules\caniuse-lite\data\regions\CH.js133225013538874955 0
 123C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\node_modules\caniuse-lite\data\regions\CI.js133225013538944761 0
-100C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\dist\pdp.6f3963cc.jpg133408803594830817 0
+100C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\dist\pdp.6f3963cc.jpg133419151788539841 0
 123C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\node_modules\caniuse-lite\data\regions\CL.js133225013538984655 0
 123C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\node_modules\caniuse-lite\data\regions\CO.js133225013539064440 0
 123C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\node_modules\caniuse-lite\data\regions\CU.js133225013540955248 0
@@ -4379,11 +4379,11 @@
 103C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\node_modules\.bin\terser133225013545663775 0
 107C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\node_modules\.bin\terser.cmd133225013545663775 0
 107C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\node_modules\.bin\terser.ps1133225013545663775 0
-116C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\dist\CV - Xavier Marcotte.3464ddca.js133408803594715824 0
-120C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\dist\CV - Xavier Marcotte.3464ddca.js.map133408803594785642 0
+116C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\dist\CV - Xavier Marcotte.3464ddca.js133419151788415442 0
+120C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\dist\CV - Xavier Marcotte.3464ddca.js.map133419151788529866 0
 110C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\dist\Cv-test2.0.3464ddca.js.map133236208735156788 0
-101C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\dist\index.7c0ccee6.js133408803594935223 0
-105C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\dist\index.7c0ccee6.js.map133408803594955172 0
-102C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\dist\index.ce1d6491.css133408803594895330 0
-106C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\dist\index.ce1d6491.css.map133408803594925254 0
-94C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\dist\index.html133408803594895330 0
+101C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\dist\index.7c0ccee6.js133419151788579738 0
+105C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\dist\index.7c0ccee6.js.map133419151788619632 0
+102C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\dist\index.ce1d6491.css133419151789178406 0
+106C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\dist\index.ce1d6491.css.map133419151789235349 0
+94C:\Users\le boss\OneDrive\Bureau\Essaie personnels Github\CV - Xavier Marcotte\dist\index.html133419152377187607 0
