@@ -5,6 +5,7 @@ const competences = document.querySelector(".comp\xe9tences-list");
 const sections = document.querySelectorAll("section");
 const photo = document.querySelector("img");
 const header = document.querySelector("header");
+const picture = document.querySelector("img");
 function impress() {
     bouton.addEventListener("click", ()=>{
         white.forEach((whites)=>{
@@ -13,15 +14,17 @@ function impress() {
         href.forEach((hrefs)=>{
             hrefs.style.color = "black";
         });
-        competences.style.display = "grid";
-        competences.style.gridTemplateColumns = "repeat(2, 1fr)";
-        competences.style.gridTemplateRows = "repeat(2, 1fr)";
-        competences.style.gridTemplateAreas = "primo deuxio";
-        "tertio quartio";
+        competences.style.display = "flex";
+        competences.style.justifyContent = "space-evenly";
+        // competences.style.display = "grid";
+        // competences.style.gridTemplateColumns = "repeat(2, 1fr)";
+        // competences.style.gridTemplateRows = "repeat(2, 1fr)";
+        // competences.style.gridTemplateAreas = "primo deuxio";
+        // ("tertio quartio");
         sections.forEach((section)=>{
-            section.style.padding = "16em 4em 0 4em";
+            section.style.padding = "16em 2em 0 2em";
         });
-        header.style.top = "3em";
+        // header.style.top = "3em";
         header.style.paddingBottom = "1em";
         header.style.borderBottom = "1px solid black";
         window.print();
@@ -35,7 +38,7 @@ window.onafterprint = function() {
     href.forEach((hrefs)=>{
         hrefs.style.color = "white";
     });
-    competences.style.display = "";
+    competences.style.display = "grid";
     header.style.top = "";
     header.style.paddingBottom = "";
     header.style.borderBottom = "";
