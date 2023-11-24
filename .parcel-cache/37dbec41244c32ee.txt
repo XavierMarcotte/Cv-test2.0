@@ -16,7 +16,7 @@
 58C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\src\index.scss133446287473394238 0
 85C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\@parcel\cache\lib\types.d.ts133446287956018769 0
 103C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\caniuse-lite\data\features\childnode-remove.js133446287934787118 0
-48C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\dist133446432706782775 1
+48C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\dist133453067801171718 1
 81C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\safe-buffer\package.json133446287925775752 0
 87C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\chrome-trace-event\LICENSE.txt133446287926992495 0
 85C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\posthtml\types\posthtml.d.ts133446287926673348 0
@@ -37,7 +37,7 @@
 92C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\svgo\plugins\cleanupListOfValues.js133446287928094603 0
 107C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\caniuse-lite\data\features\internationalization.js133446287938682465 0
 84C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\cosmiconfig\dist\types.d.ts133446287930109430 0
-54C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\index.html133446430313354513 0
+54C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\index.html133453067990741852 0
 88C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\caniuse-lite\data\regions\TT.js133446287941305707 0
 73C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\tslib\tslib.d.ts133446287928463643 0
 73C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\semver\README.md133446287927082254 0
@@ -876,7 +876,7 @@
 88C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\@parcel\core\src\projectPath.js133446287954328180 0
 101C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\terser\lib\compress\drop-side-effect-free.js133446287930259041 0
 85C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\@parcel\packager-raw\LICENSE133446287942308106 0
-59C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\dist\index.html133446430313745435 0
+59C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\dist\index.html133453067800830646 0
 81C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\node-gyp-build\README.md133446287927072286 0
 77C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\is-extglob\README.md133446287925516434 0
 92C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\utility-types\dist\utility-types.js133446287926603534 0
@@ -2499,7 +2499,7 @@
 86C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\csso\lib\restructure\utils.js133446287931914606 0
 89C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\cosmiconfig\dist\getDirectory.js133446287926653401 0
 94C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\csso\lib\replace\AttributeSelector.js133446287928059639 0
-71C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\dist\index.ce1d6491.css.map133446427103758402 0
+71C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\dist\index.ce1d6491.css.map133453067800574143 0
 94C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\css-tree\lib\syntax\pseudo\slotted.js133446287934328346 0
 112C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\@swc\helpers\src\_class_check_private_static_access.mjs133446287934348295 0
 117C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\@swc\helpers\src\_class_static_private_field_destructure.mjs133446287934737252 0
@@ -2617,7 +2617,7 @@
 88C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\caniuse-lite\data\regions\GE.js133446287938104013 0
 90C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\css-tree\lib\syntax\node\index.js133446287932822191 0
 105C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\@swc\helpers\src\_class_private_field_update.mjs133446287934607601 0
-71C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\dist\Cv-test2.0.3464ddca.js133446427103678619 0
+71C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\dist\Cv-test2.0.3464ddca.js133453067801119867 0
 88C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\caniuse-lite\data\regions\AL.js133446287930378712 0
 91C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\css-tree\lib\syntax\node\Number.js133446287933655045 0
 117C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\@parcel\core\test\fixtures\config-plugin-not-found\.parcelrc133446287952532972 0
@@ -3032,7 +3032,7 @@
 99C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\caniuse-lite\data\features\css-autofill.js133446287935505256 0
 106C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\caniuse-lite\data\features\css-backdrop-filter.js133446287935505256 0
 109C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\caniuse-lite\data\features\css-boxdecorationbreak.js133446287935555123 0
-65C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\dist\pdp.6f3963cc.jpg133446427103738552 0
+65C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\dist\pdp.6f3963cc.jpg133453067800840619 0
 100C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\caniuse-lite\data\features\css-boxshadow.js133446287935565097 0
 102C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\caniuse-lite\data\features\css-caret-color.js133446287935575068 0
 103C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\@parcel\core\lib\requests\ValidationRequest.js133446287954916598 0
@@ -4383,7 +4383,7 @@
 72C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\.bin\terser.cmd133446287988380104 0
 72C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\node_modules\.bin\terser.ps1133446287988380104 0
 85C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\dist\CV - Xavier Marcotte.3464ddca.js.map133446287473274544 0
-75C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\dist\Cv-test2.0.3464ddca.js.map133446427103758402 0
-66C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\dist\index.7c0ccee6.js133446432706742882 0
-70C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\dist\index.7c0ccee6.js.map133446432706782775 0
-67C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\dist\index.ce1d6491.css133446427103708547 0
+75C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\dist\Cv-test2.0.3464ddca.js.map133453067801159758 0
+66C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\dist\index.7c0ccee6.js133453067800464440 0
+70C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\dist\index.7c0ccee6.js.map133453067800574143 0
+67C:\Users\le boss\OneDrive\Bureau\Cv-test2.0\dist\index.ce1d6491.css133453067800524277 0
