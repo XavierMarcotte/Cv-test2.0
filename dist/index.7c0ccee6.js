@@ -24,10 +24,10 @@ function impress() {
         // competences.style.gridTemplateAreas = "primo deuxio";
         // ("tertio quartio");
         sections.forEach((section)=>{
-            section.style.padding = "20em 1em 0 1em";
+            section.style.padding = "10em 1em 0 1em";
         });
         // header.style.height = "22vh";
-        header.style.marginTop = "10em";
+        // header.style.marginTop = "10em";
         header.style.height = "10vh";
         header.style.paddingBottom = "1em";
         header.style.borderBottom = "1px solid black";
