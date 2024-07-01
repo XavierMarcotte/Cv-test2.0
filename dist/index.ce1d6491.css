@@ -215,4 +215,29 @@ body main .body-right {
   }
 }
 
+@media print {
+  .white, a {
+    color: #000 !important;
+  }
+
+  .compétences-list {
+    justify-content: space-between !important;
+    display: flex !important;
+  }
+
+  section {
+    padding: 10em 1em 0 !important;
+  }
+
+  header {
+    height: 10vh !important;
+    border-bottom: 1px solid #000 !important;
+    padding-bottom: 1em !important;
+  }
+
+  h2 {
+    font-size: 1rem !important;
+  }
+}
+
 /*# sourceMappingURL=index.ce1d6491.css.map */

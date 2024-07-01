@@ -193,3 +193,27 @@ body {
     }
   }
 }
+
+@media print {
+  .white {
+    color: black !important;
+  }
+  a {
+    color: black !important;
+  }
+  .compétences-list {
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  section {
+    padding: 10em 1em 0 1em !important;
+  }
+  header {
+    height: 10vh !important;
+    padding-bottom: 1em !important;
+    border-bottom: 1px solid black !important;
+  }
+  h2 {
+    font-size: 1rem !important;
+  }
+}
